@@ -23,7 +23,7 @@ Quando o modelo é carregado fora do endpoint, é carregada como variável globa
 
     sudo docker-compose up
     
-5. Copy .env-example file and rename it as .env. because docker-compose will look for environment variables.
+5. Copy .env-example file and rename it as .env because docker-compose will look for environment variables.
 
 Important: On Linux I used "sudo docker", because I didn't configure the docker to be used without sudo, but if you don't need it on your computer, just remove it.
 
