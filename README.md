@@ -5,26 +5,53 @@ Lapisco Trainne - Módulo 6
 Quando o modelo é carregado fora do endpoint, é carregada como variável global, sendo assim possível de utilizar em mais de uma rota, no entanto, se for carregada dentro de uma rota terá um maior custo do tempo para requisitar o modelo.
 
 ## Questão 02 e 04
+    - Django 2.0
+    
+    1. A pasta Django_2_0 é onde se encontra todos os códigos necessários para resolver essa questão, o código principal (views.py) está dentro da pasta main 
+    
+    2. Se necessário, fazer download do requirements.txt
+    
+    3. Para construir um docker-compose da aplicação é necessário (Folder: Django_2_0):
+    
+        sudo docker-compose build
+        
+    4. Para executar o docker-compose da aplicação é necessário (Folder: Django_2_0):
+    
+        sudo docker-compose up
+    
+    5. Copie o arquivo env-example e remoneie .env, porque o docker-compose irá analisar as variáveis de ambiente.
+    
+    - Django Rest Framework
+
 
 ## Questão 03 e 05
-1. The resolution of the questions is in the FastAPI folder -> src -> main.py;
 
-2. If necessary, download requirements.txt;
-
-3. How to build 
-
-    cd src
-
-    sudo docker-compose buil
-
-4. How to run
+1. O caminho para encontrar o código principal é FastAPI -> src -> main.py;
+    
+2. Se necessário, fazer download do requirements.txt
+    
+3. Para construir um docker-compose da aplicação é necessário (Folder: Django_2_0):
     
     cd src
+    sudo docker-compose build
+        
+4. Para executar o docker-compose da aplicação é necessário (Folder: Django_2_0):
 
-    sudo docker-compose up
+    cd src
     
-5. Copy .env-example file and rename it as .env because docker-compose will look for environment variables.
-
-Important: On Linux I used "sudo docker", because I didn't configure the docker to be used without sudo, but if you don't need it on your computer, just remove it.
+        sudo docker-compose up
+    
+5. Copie o arquivo env-example e remoneie .env, porque o docker-compose irá analisar as variáveis de ambiente.
 
 ## Questão 06
+
+
+
+
+
+
+
+
+
+
+Importante: No Linux, eu digito "sudo docker-compose...", porque eu não configurei para usar o docker sem o sudo, mas caso seu computador não necessite, é apenas remover isso. 
