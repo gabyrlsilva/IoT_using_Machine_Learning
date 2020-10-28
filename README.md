@@ -1,5 +1,4 @@
-# IoT using Machine Learning
-Lapisco Trainne - Módulo 6
+# IoT using Machine Learning - Lapisco Trainne - Módulo 6
 
 ## Questão 01
 Quando o modelo é carregado fora do endpoint, é carregada como variável global, sendo assim possível de utilizar em mais de uma rota, no entanto, se for carregada dentro de uma rota terá um maior custo do tempo para requisitar o modelo.
@@ -13,11 +12,11 @@ Quando o modelo é carregado fora do endpoint, é carregada como variável globa
     
     3. Para construir um docker-compose da aplicação é necessário (Folder: Django_2_0):
     
-        sudo docker-compose build
+           sudo docker-compose build
         
     4. Para executar o docker-compose da aplicação é necessário (Folder: Django_2_0):
     
-        sudo docker-compose up
+           sudo docker-compose up
     
     5. Copie o arquivo env-example e remoneie .env, porque o docker-compose irá analisar as variáveis de ambiente.
  ------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -53,5 +52,5 @@ Quando o modelo é carregado fora do endpoint, é carregada como variável globa
 
 
 
-
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
 Importante: No Linux, eu digito "sudo docker-compose...", porque eu não configurei para usar o docker sem o sudo, mas caso seu computador não necessite, é apenas remover isso. 
