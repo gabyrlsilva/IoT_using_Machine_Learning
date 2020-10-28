@@ -6,7 +6,7 @@ Quando o modelo é carregado fora do endpoint, é carregada como variável globa
 ## Questão 02 e 04
  - Django 2.0
     
-    1. A pasta Django_2_0 é onde se encontra todos os códigos necessários para resolver essa questão, o código principal (views.py) está dentro da pasta main 
+    1. A pasta [Django_2_0](https://github.com/gabyrlsilva/IoT_using_Machine_Learning/tree/main/Django_2_0) é onde se encontra todos os códigos necessários para resolver essa questão, o código principal [views.py](https://github.com/gabyrlsilva/IoT_using_Machine_Learning/blob/main/Django_2_0/main/views.py) está dentro da pasta main 
     
     2. Se necessário, fazer download do requirements.txt
     
@@ -26,7 +26,7 @@ Quando o modelo é carregado fora do endpoint, é carregada como variável globa
 
 ## Questão 03 e 05
 
-1. O caminho para encontrar o código principal é FastAPI -> [src](https://github.com/gabyrlsilva/IoT_using_Machine_Learning/tree/main/FastAPI/src) -> main.py;
+1. O caminho para encontrar o código principal é [FastAPI -> src](https://github.com/gabyrlsilva/IoT_using_Machine_Learning/tree/main/FastAPI/src) -> main.py;
     
 2. Se necessário, fazer download do requirements.txt
     
