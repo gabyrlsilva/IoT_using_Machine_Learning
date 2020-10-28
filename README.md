@@ -5,7 +5,7 @@ Lapisco Trainne - Módulo 6
 Quando o modelo é carregado fora do endpoint, é carregada como variável global, sendo assim possível de utilizar em mais de uma rota, no entanto, se for carregada dentro de uma rota terá um maior custo do tempo para requisitar o modelo.
 
 ## Questão 02 e 04
-    - Django 2.0
+ - Django 2.0
     
     1. A pasta Django_2_0 é onde se encontra todos os códigos necessários para resolver essa questão, o código principal (views.py) está dentro da pasta main 
     
@@ -20,8 +20,9 @@ Quando o modelo é carregado fora do endpoint, é carregada como variável globa
         sudo docker-compose up
     
     5. Copie o arquivo env-example e remoneie .env, porque o docker-compose irá analisar as variáveis de ambiente.
+ ------------------------------------------------------------------------------------------------------------------------------------------------------------
     
-    - Django Rest Framework
+ - Django Rest Framework
 
 
 ## Questão 03 e 05
@@ -32,13 +33,12 @@ Quando o modelo é carregado fora do endpoint, é carregada como variável globa
     
 3. Para construir um docker-compose da aplicação é necessário (Folder: Django_2_0):
     
-    cd src
-    sudo docker-compose build
+        cd src
+        sudo docker-compose build
         
 4. Para executar o docker-compose da aplicação é necessário (Folder: Django_2_0):
 
-    cd src
-    
+        cd src
         sudo docker-compose up
     
 5. Copie o arquivo env-example e remoneie .env, porque o docker-compose irá analisar as variáveis de ambiente.
