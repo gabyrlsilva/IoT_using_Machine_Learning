@@ -26,7 +26,7 @@ Quando o modelo é carregado fora do endpoint, é carregada como variável globa
 
 ## Questão 03 e 05
 
-1. O caminho para encontrar o código principal é FastAPI -> src -> main.py;
+1. O caminho para encontrar o código principal é FastAPI -> src (https://github.com/gabyrlsilva/IoT_using_Machine_Learning/tree/main/FastAPI/src) -> main.py;
     
 2. Se necessário, fazer download do requirements.txt
     
