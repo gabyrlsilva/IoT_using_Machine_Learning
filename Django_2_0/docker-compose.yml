@@ -1,0 +1,14 @@
+version: "3"
+
+services:
+    api:
+        # Django 2.0 rules
+        container_name: lapico_trainee_django_iris
+        command: "python manage.py runserver 0.0.0.0:8000"
+        build:
+            context: .
+            dockerfile: Dockerfile
+        ports: 
+            - 8000:8000
+        env_file: main/.env
+        restart: always
