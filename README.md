@@ -44,13 +44,23 @@ Quando o modelo é carregado fora do endpoint, é carregada como variável globa
 
 ## Questão 06
 
+1. O caminho para encontrar o código principl (main) é [Churn_detector](https://github.com/gabyrlsilva/IoT_using_Machine_Learning/tree/main/Churn_detector);
 
+2. Se necessário, fazer download do requirements.txt;
 
+3. Para construir um docker-compose da aplicação é necessário:
+    
+        cd src
+        sudo docker-compose build
+        
+4. Para executar o docker-compose da aplicação é necessário:
 
-
-
-
-
+        cd src
+        sudo docker-compose up
+    
+5. Copie o arquivo env-example e remoneie .env, porque o docker-compose irá analisar as variáveis de ambiente.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 Importante: No Linux, eu digito "sudo docker-compose...", porque eu não configurei para usar o docker sem o sudo, mas caso seu computador não necessite, é apenas remover isso. 
+
+**Observação:** Caso a porta 8000 esteja sendo utilizada, inserir *sudo lsof -i:8000* para encontrar o container que está utilizando a porta, em seguida *kill <ID processo>*.
